@@ -16,10 +16,6 @@ function runtest(darray, gd) {
 	var h2 = featureDenormalize(h, gd.means.y[0], gd.std.y[0]);
 	console.log(gd);
 	console.log(h2);
-
-	_.each(gd.J, function(x) {
-		//console.log(x);
-	})
 	
 }
 
@@ -37,7 +33,6 @@ function trainGradient(data, means, std) {
 
 	var testX = [[1427, 3], [4478, 5]];
 	runtest(testX, gd);
-
 
 }
 
@@ -76,7 +71,8 @@ function processData(data) {
 $(document).ready(function() {
 	$.ajax({
 	    type: "GET",
-	    url: "data.txt",
+	    url: "data/data.txt",
+	    //url: "data/data2.txt",
 	    dataType: "text",
 	    success: function(data) {processData(data);}
 	});
