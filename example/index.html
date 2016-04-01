@@ -10,5 +10,19 @@
 	<script src="../lib/feature_normalize.js"></script>
 	<script src="../lib/stoch_grad_desc.js"></script>
 	<script src="js/main.js"></script>
+
+	<script type="text/javascript">
+	
+		$(document).ready(function() {
+			$.ajax({
+			    type: "GET",
+			    url: "data/data.txt",
+			    //url: "data/data2.txt",
+			    dataType: "text",
+			    success: function(data) {processData(data);}
+			});
+		});
+
+	</script>
 </body>
 </html>

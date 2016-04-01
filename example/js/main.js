@@ -65,16 +65,4 @@ function processData(data) {
 	norms.y = featureNormalize(ymulti, means.y, std.y);
 
 	trainGradient(norms, means, std);
-
 }
-
-$(document).ready(function() {
-	$.ajax({
-	    type: "GET",
-	    url: "data/data.txt",
-	    //url: "data/data2.txt",
-	    dataType: "text",
-	    success: function(data) {processData(data);}
-	});
-});
-

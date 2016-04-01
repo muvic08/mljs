@@ -5,7 +5,7 @@
 2. lib/feature_normalize.js: a collection of functions to normalize/denormalize data before/after feeding to gradient descent algorithm
 
 ###Example
-example folder contains an example with two data samples.
+The example folder contains an example with two data samples.
 
 ###Usage
 Comprehensive tutorial to follow. Please contact me if you have any questions/suggestions.
