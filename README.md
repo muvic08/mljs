@@ -1,4 +1,4 @@
-## Machine Learning for Javascript:
+## Machine Learning in Javascript
 
 ###Library
 1. lib/stoch_grad_desc.js: Javascript implementation of stachastic gradient descent algorithm
