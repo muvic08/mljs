@@ -1,14 +1,7 @@
-…or create a new repository on the command line
+Machine Learning for Javascript:
 
-echo "# mljs" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/muvic08/mljs.git
-git push -u origin master
-…or push an existing repository from the command line
+1. lib/stoch_grad_desc.js: Javascript implementation of gradient descent algorithm
+2. lib/feature_normalize.js: a collection of functions to normalize/denormalize data before/after feeding to gradient descent algorithm
+3. example folder contains an example with two data samples.
 
-git remote add origin https://github.com/muvic08/mljs.git
-git push -u origin master
-…or import code from another repository
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+Comprehensive tutorial to follow. Please contact me if you have any questions/suggestions.
